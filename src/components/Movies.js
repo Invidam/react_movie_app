@@ -30,7 +30,7 @@ function Movie({ rank, id, year, title, rating, summary, poster, genres }) {
             {(rating / 2).toFixed(1)} / 5.0
           </p>
           <ul className="movie_genres">
-            {genres.map((genre, idx) => {
+            {genres.slice(0, 4).map((genre, idx) => {
               return (
                 <li className="movie_genre" key={idx}>
                   {genre}

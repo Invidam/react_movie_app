@@ -44,7 +44,7 @@ class Detail extends React.Component {
               {(rating / 2).toFixed(1)} / 5.0
             </p>
             <ul className="movie-detail_genres">
-              {genres.map((genre, idx) => {
+              {genres.slice(0, 4).map((genre, idx) => {
                 return (
                   <li className="movie-detail_genre" key={idx}>
                     {genre}
