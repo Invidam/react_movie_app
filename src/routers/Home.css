@@ -1,5 +1,8 @@
 html,
-body,
+body {
+  background-color: #34495e;
+  margin: 0;
+}
 .container {
   background-color: #34495e;
   display: flex;
