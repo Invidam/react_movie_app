@@ -1,0 +1,17 @@
+html,
+body,
+.container {
+  background-color: #34495e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  /* background-color: aqua; */
+  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40vh;
+}
